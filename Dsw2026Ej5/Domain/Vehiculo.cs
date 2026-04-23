@@ -6,13 +6,13 @@ namespace Dsw2026Ej5.Domain;
 
 public abstract class Vehiculo
 {
-    private string patente;
-    private string marca;
-    private string modelo;
-    private int anio;
-    private double capacidadCarga;
-    private Sucursal sucursal;
-    private VehiculoTipo tipo;
+    protected string patente;
+    protected string marca;
+    protected string modelo;
+    protected int anio;
+    protected double capacidadCarga;
+    protected Sucursal sucursal;
+    protected VehiculoTipo tipo;
 
     protected Vehiculo(VehiculoTipo tipo, string patente, string marca, string modelo, int anio, double capacidadCarga, Sucursal sucursal)
     {
